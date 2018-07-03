@@ -34,3 +34,58 @@ if __name__ == '__main__':
         for item in Raptors:
             team_file.write(', '.join(item) + '\n')
         # the end is pretty long but gets the job done
+
+    with open('Herschel_Krustofski.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Sharks team.
+            the first practice will be on 7/5/2018""".format(Sharks[0][3]))
+    with open('Diego_Soto.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Sharks team.
+            the first practice will be on 7/5/2018""".format(Sharks[1][3]))
+    with open('Bill_Bon.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Sharks team.
+            the first practice will be on 7/5/2018""".format(Sharks[2][3]))
+    with open('Eva_Gordon.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Sharks team.
+            the first practice will be on 7/5/2018""".format(Sharks[3][3]))
+    with open('Sammy_Adams.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Sharks team.
+            the first practice will be on 7/5/2018""".format(Sharks[4][3]))
+    with open('Ben_Finkelstein.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Sharks team.
+            the first practice will be on 7/5/2018""".format(Sharks[5][3]))
+    with open('Les_Clay.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Dragons team.
+            the first practice will be on 7/5/2018""".format(Dragons[0][3]))
+    with open('Suzane_Greenberg.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Dragons team.
+            the first practice will be on 7/5/2018""".format(Dragons[1][3]))
+    with open('Jill_Tanner.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Dragons team.
+            the first practice will be on 7/5/2018""".format(Dragons[2][3]))
+    with open('Matt_Gill.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Dragons team.
+            the first practice will be on 7/5/2018""".format(Dragons[3][3]))
+    with open('Sal_Dali.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Dragons team.
+            the first practice will be on 7/5/2018""".format(Dragons[4][3]))
+    with open('Chloe_Alaska.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Dragons team.
+            the first practice will be on 7/5/2018""".format(Dragons[5][3]))
+    with open('Phillip_Helm.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Raptors team.
+            the first practice will be on 7/5/2018""".format(Raptors[0][3]))
+    with open('Karl_Saygan.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Raptors team.
+            the first practice will be on 7/5/2018""".format(Raptors[1][3]))
+    with open('Joe_Smith.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Raptors team.
+            the first practice will be on 7/5/2018""".format(Raptors[2][3]))
+    with open('Kimmy_Stein.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Raptors team.
+            the first practice will be on 7/5/2018""".format(Raptors[3][3]))
+    with open('Joe_Kavalier.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Raptors team.
+            the first practice will be on 7/5/2018""".format(Raptors[4][3]))
+    with open('Arnold_Willis.txt', 'w') as letter:
+        letter.write("""Dear {}, your child has made the Raptors team.
+            the first practice will be on 7/5/2018""".format(Raptors[5][3]))
